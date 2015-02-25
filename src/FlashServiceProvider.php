@@ -36,7 +36,8 @@ class FlashServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('mnshankar/flash');
+        //fix for psr-4
+        $this->package('mnshankar/flashmessenger',null, __DIR__);
     }
 
     /**
