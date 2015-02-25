@@ -111,3 +111,6 @@ php artisan view:publish mnshankar/flashmessenger
 ```
 
 The two package views will now be located in the `app/views/packages/mnshankar/flashmessenger/' directory.
+
+# Credits
+This is almost a verbatim copy of Jeffrey Way's Flash library (https://github.com/laracasts/flash) .. I just tweaked it (very slightly)  so I can use it with php 5.3.
