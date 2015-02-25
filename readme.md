@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mnshankar/flashmessenger.png)](https://travis-ci.org/mnshankar/flashmessenger)
+
 # Easy Flash Messages
 
 ## Installation
@@ -69,7 +71,7 @@ With this message flashed to the session, you may now display it in your view(s)
 Because flash messages and overlays are so common, if you want, you may use (or modify) the views that are included with this package. Simply append to your layout view:
 
 ```html
-@include('flash::message')
+@include('flashmessenger::message')
 ```
 
 ## Example
@@ -85,7 +87,7 @@ Because flash messages and overlays are so common, if you want, you may use (or 
 <body>
 
 <div class="container">
-    @include('flash::message')
+    @include('flashmessenger::message')
 
     <p>Welcome to my website...</p>
 </div>
@@ -108,4 +110,4 @@ If you need to modify the flash message partials, you can run:
 php artisan view:publish mnshankar/flashmessenger
 ```
 
-The two package views will now be located in the `app/views/packages/mnshankar/flash/' directory.
+The two package views will now be located in the `app/views/packages/mnshankar/flashmessenger/' directory.
