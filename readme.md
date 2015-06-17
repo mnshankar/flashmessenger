@@ -8,7 +8,7 @@ First, pull in the package through Composer.
 
 ```js
 "require": {
-    "mnshankar/flashmessenger": "1.0"
+    "mnshankar/flashmessenger": "1.1"
 }
 ```
 
